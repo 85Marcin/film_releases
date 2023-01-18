@@ -36,6 +36,9 @@ const FilmBox = () => {
       <ul>
         <FilmList films={films} />
       </ul>
+      <a href="https://www.imdb.com/calendar/?region=gb">
+        <button type="button">VIEW MORE UPCOMING RELEASES</button>
+      </a>
     </>
   );
 };
